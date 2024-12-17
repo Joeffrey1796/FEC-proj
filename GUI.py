@@ -187,6 +187,7 @@ def solve() -> None:
             solution_window.title("Solution")
             solution_window.minsize(200, 150)
             solution_window.geometry("450x800")
+            change_title_bar_color(solution_window, "blue",0.85)
 
             c_frame = scrollable(solution_window, 600, 800, 0, 0)
 
